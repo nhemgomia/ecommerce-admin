@@ -43,7 +43,7 @@ const CellAction: React.FC<CellActionProps> = ({
       router.refresh();
       toast.success("Billboard deleted.");
     } catch (error) {
-      toast.error("Make sure you removed all categories using this billboard.");
+      toast.error("Make sure you removed all categories using this billboard first.");
     } finally {
       setLoading(false);
       setOpen(false);
