@@ -11,8 +11,13 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Admin Dashboard',
-  description: 'Admin Dashboard',
+  title: 'Ecommerce Admin',
+  description: 'Manage your store easily with our customized admin dashboard.',
+  openGraph: {
+    title: 'Ecommerce Admin',
+    description: 'Manage your store easily with our fully customizable ecommerce CMS',
+    images: 'https://res.cloudinary.com/dhb7wgkvi/image/upload/v1690515393/opengraph-image_l2b36x.png'
+  }
 }
 
 export default function RootLayout({
